@@ -4,7 +4,7 @@ Although only the broker URL is configurable in `application.yml`, there are pot
 
 == Customizing the ConnectionFactory
 
-Here we intercept the creation of the ActiveMQ "Classic" `ConnectionFactory` by overriding the default to enable asynchronous message sending:
+Here we intercept the creation of the ActiveMQ Classic `ConnectionFactory` by overriding the default to enable asynchronous message sending:
 
 snippet::io.micronaut.jms.docs.configuration.CustomizeBrokerJMSConnectionPoolListener[tags="imports,clazz", project-base="docs-examples/example"]
 
