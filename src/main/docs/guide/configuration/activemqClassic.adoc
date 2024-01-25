@@ -1,6 +1,6 @@
-= Configuring ActiveMQ "Classic"
+= Configuring ActiveMQ Classic
 
-To use ActiveMQ "Classic", add the following properties to your `application.yml`
+To use ActiveMQ Classic, add the following properties to your `application.yml`
 
 [configuration]
 ----
